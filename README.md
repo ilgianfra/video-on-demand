@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Clone or Download the project
 ```
 cd video-on-demand
+yarn
+yarn build-css
 yarn start
 ```
 
