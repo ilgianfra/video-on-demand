@@ -1,0 +1,33 @@
+
+@import 'styles/common.scss';
+@import 'components/Header/style.scss';
+@import 'components/MovieList/style.scss';
+@import 'components/MovieItem/style.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: $color-dark;
+  color: $color-light;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.padding-0-10 {
+  padding: 0 10px;
+}
+
+div:focus {
+    outline: none;
+}
